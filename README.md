@@ -23,7 +23,7 @@ samad = {
 }
 ```
 
-- 🤖 Trained **SDXL diffusion models**, built **RL-based traffic control** systems, deployed **ML APIs on AWS**
+- 🤖 Fine Tuned **SDXL diffusion models**, built **RL-based traffic control** systems, deployed **ML APIs on AWS**
 - ☁️ Hands-on with **Docker**, **CI/CD pipelines**, **AWS EC2/S3**, and **Nginx** reverse proxies
 - 🔬 Interested in **MLOps**, **model fine-tuning**, **Reinforcement Learning**, and **Generative AI**
 - 🛡️ Security-aware developer — occasionally building threat detection tooling on the side
