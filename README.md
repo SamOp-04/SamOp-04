@@ -112,7 +112,7 @@ ML-backed FastAPI service for real-time cybersecurity threat classification with
 
 - 🏅 **IBM Machine Learning Professional Certificate** — Coursera, 2025
 - 🏅 **Microsoft Product Management Fundamentals** — Coursera, 2025
-
+- 🏅 **Deep Learning Specialization** — Coursera (2026)
 ---
 
 <div align="center">
