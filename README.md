@@ -36,7 +36,7 @@ samad = {
 
 Intelligent traffic signal control system that uses **computer vision, machine learning, and traffic simulation** to optimize signal timing from real-time vehicle detection in video feeds.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mir1204/smartcity-intellitraffic-cv)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SamOp-04/smartcity.v2)
 
 ---
 
