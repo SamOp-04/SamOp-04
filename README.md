@@ -17,24 +17,24 @@ samad = {
     "role"     : "AI/ML Engineer in Training • DevOps Enthusiast",
     "education": "B.Tech CSE @ Charusat University (2023–2027)",
     "location" : "Anand, Gujarat, India 🇮🇳",
-    "focus"    : ["ML Engineering", "MLOps", "Generative AI", "RL Systems"],
+    "focus"    : ["ML Engineering", "MLOps", "Generative AI", "Computer Vision Systems"],
     "seeking"  : "Internship / Entry-level in ML Engineering, Backend, or DevOps",
 }
 ```
 
-- 🤖 Fine Tuned **SDXL diffusion models**, built **RL-based traffic control** systems, deployed **ML APIs on AWS**
+- 🤖 Fine-tuned **SDXL diffusion models**, built an **AI-based traffic signal optimization** system using computer vision + ML, and deployed **ML APIs on AWS**
 - ☁️ Hands-on with **Docker**, **CI/CD pipelines**, **AWS EC2/S3**, and **Nginx** reverse proxies
-- 🔬 Interested in **MLOps**, **model fine-tuning**, **Reinforcement Learning**, and **Generative AI**
+- 🔬 Interested in **MLOps**, **model fine-tuning**, **computer vision**, and **Generative AI**
 - 🛡️ Security-aware developer — occasionally building threat detection tooling on the side
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🚦 IntelliTrafic — Adaptive Traffic Control
-> `Python` `Reinforcement Learning` `Computer Vision`
+### 🚦 AI-Based Traffic Signal Optimization System
+> `Python` `YOLOv8n` `XGBoost` `SUMO` `Streamlit` `Computer Vision`
 
-Multi-agent RL system for adaptive signal control using real-time vehicle detection and emergency-priority routing to reduce urban congestion.
+Intelligent traffic signal control system that uses **computer vision, machine learning, and traffic simulation** to optimize signal timing from real-time vehicle detection in video feeds.
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mir1204/smartcity-intellitraffic-cv)
 
