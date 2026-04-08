@@ -18,7 +18,7 @@
 
 AI/ML engineer in training with hands-on experience building **computer vision systems**, **ML pipelines**, **generative AI workflows**, and **cloud-deployed backend services**. I enjoy taking ideas from experimentation to implementation — whether that means training models, shipping APIs, setting up CI/CD, or deploying production-ready applications.
 
-I’m currently focused on:
+I'm currently focused on:
 - **Machine Learning Engineering**
 - **Computer Vision**
 - **MLOps / DevOps**
@@ -43,7 +43,7 @@ samad = {
 - 🤖 Built an **AI-based traffic signal optimization system** using **YOLOv8n, XGBoost, SUMO, and Streamlit**
 - 🖼️ Fine-tuned **SDXL diffusion models** and worked with **ComfyUI + LoRA workflows**
 - ☁️ Deployed applications and services using **AWS EC2/S3**, **Docker**, **Nginx**, and **CI/CD pipelines**
-- 🛡️ Built **ML-backed APIs** and explored **security-focused tooling** for practical threat detection use cases
+- 📄 Built an **agentic RAG system** for legal contract analysis with hybrid retrieval, LLM routing, and RAGAS evaluation
 
 ---
 
@@ -72,6 +72,23 @@ An intelligent traffic signal control system that combines **computer vision**, 
 - **Interactive Streamlit dashboard** for monitoring and simulation comparison
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mir1204/smartcity-intellitraffic-cv)
+
+---
+
+### 📄 KnowYourContract — Agentic RAG Legal Analyzer
+> `Python` `FastAPI` `LangChain` `ChromaDB` `Streamlit` `HuggingFace` `Sentence-Transformers`
+
+An end-to-end **agentic RAG system** for legal contract analysis — upload any PDF or TXT contract, and ask natural-language questions to get grounded, cited answers about clauses, obligations, and risk terms.
+
+**Highlights**
+- **Clause-aware chunking** tuned to CUAD contract clause families (termination, indemnification, IP, payment, etc.)
+- **Hybrid dense + BM25 retrieval** (ChromaDB + rank-bm25) with automatic reranking
+- **LLM-based query router** (HuggingFace Qwen2.5-7B / Ollama Mistral) selecting between contract search and Tavily web search fallback
+- **RAGAS-style evaluation** — faithfulness, answer relevance, context precision & recall — persisted to SQLite/PostgreSQL
+- Multi-session, **chat-scoped contract isolation** with optional API key auth
+- Fully **Dockerized** with `docker-compose` for one-command deployment
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SamOp-04/KnowYourContract)
 
 ---
 
@@ -104,30 +121,16 @@ A full-stack platform for citizen issue reporting with **AI-based categorization
 ---
 
 ### 💳 Credit Card Fraud Detection
-> `Python` `Scikit-learn` `Imbalanced Learning` `ML Pipeline`
+> `Python` `XGBoost` `FastAPI` `Docker` `Terraform` `AWS ECS Fargate`
 
-An end-to-end ML workflow for fraud detection with emphasis on **class imbalance handling**, **feature engineering**, and **robust model evaluation**.
+A production-grade **MLOps pipeline** for fraud detection — from model training to cloud deployment with full CI/CD, drift monitoring, and infrastructure as code.
 
 **Highlights**
-- Built a complete fraud detection pipeline
-- Worked with **imbalanced dataset strategies**
-- Focused on model reliability through better evaluation metrics
+- ROC-AUC **0.981**, Precision **0.96**, Recall **0.78** on 284,807 transactions
+- Deployed **FastAPI serving** on AWS ECS Fargate with auto-scaling (1–4 tasks), ALB, and **Terraform IaC** managing 23 AWS resources
+- Integrated **MLflow** experiment tracking, **Evidently** drift monitoring, **GitHub Actions** CI/CD, and 26 pytest tests
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SamOp-04/Credit_Card_Fraud_Detection)
-
----
-
-### 🛡️ smkPIE — Threat Detection API
-> `FastAPI` `Python` `Machine Learning` `REST API`
-
-An ML-backed FastAPI service for cybersecurity threat classification with fast inference and structured JSON-based API responses.
-
-**Highlights**
-- Built a **FastAPI-based ML inference service**
-- Designed for **real-time classification workflows**
-- Focused on clean APIs and low-latency prediction
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SamOp-04/smkpie)
 
 ---
 
@@ -144,6 +147,7 @@ An ML-backed FastAPI service for cybersecurity threat classification with fast i
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square&logo=databricks&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
 ### Backend / Web
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
